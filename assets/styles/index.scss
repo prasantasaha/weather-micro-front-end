@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1390C4;
+    color: #fff;
+  }
+  
+.main-container {
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.location-search-angular {
+    flex: 1;
+    height: 200px;
+    padding: 10px;
+}
+
+.weather-app-react {
+    flex: 1;
+}
