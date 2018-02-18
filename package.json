@@ -26,6 +26,7 @@
   "dependencies": {
     "@angular/platform-browser-dynamic": "^5.2.5",
     "@angular/router": "^5.2.5",
+    "bitcoin-price-index": "https://github.com/mrkjlchvz/bitcoin-price-index/tarball/master",
     "reflect-metadata": "^0.1.12",
     "single-spa": "^3.8.1",
     "single-spa-angular2": "^1.2.0",

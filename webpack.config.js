@@ -23,7 +23,8 @@ module.exports = {
             'single-spa',
             'single-spa-react',
             'single-spa-angular2',
-            'weather-app'
+            'weather-app',
+            'bitcoin-price-index'
         ],
         bundle: path.join(dirApp, 'index')
     },
@@ -116,7 +117,7 @@ module.exports = {
             //JSX
             {
                 test: /\.jsx?$/,
-                include: /weather-app/,
+                include: /(weather-app|bitcoin-price-index)/,
                 loaders: ['babel-loader']
             },
 
