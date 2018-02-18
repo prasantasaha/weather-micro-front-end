@@ -2,12 +2,12 @@ import 'reflect-metadata';
 import singleSpaAngular from 'single-spa-angular2';
 import { NgModule } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppModule } from 'weather-app-angular/src/app/app.module';
+// import { AppModule } from 'weather-app-angular/src/app/app.module';
 import { Router } from '@angular/router';
 
 const ngLifecycles = singleSpaAngular({
     domElementGetter,
-    mainModule: AppModule,
+    // mainModule: AppModule,
     angularPlatform: platformBrowserDynamic(),
     template: `<location-search-angular></location-search-angular>`,
     Router,

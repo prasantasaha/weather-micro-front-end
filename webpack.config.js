@@ -23,8 +23,7 @@ module.exports = {
             'single-spa',
             'single-spa-react',
             'single-spa-angular2',
-            'weather-app',
-            'weather-app-angular'
+            'weather-app'
         ],
         bundle: path.join(dirApp, 'index')
     },
