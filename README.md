@@ -18,3 +18,14 @@ This application is usinh `single-spa` (https://github.com/CanopyTax/single-spa)
 
 
 To launch the application locally, run `yarn run dev`. Then you can access the app using  http://localhost:8080/
+
+To deploy the app to Github pages run `npm run deploy`
+
+Note: When importing subapps from `node_modules` we need to make sure `main` in package.json is pointing to the main module e.g. 
+```
+{
+    ...
+    "main" : "src/App.js"
+    ...
+}
+```
