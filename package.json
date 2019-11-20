@@ -8,7 +8,9 @@
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --config webpack.config.dev.js",
-    "build": "webpack -p --progress --config webpack.config.build.js"
+    "build": "webpack -p --progress --config webpack.config.build.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,8 @@
     "single-spa-react": "^2.2.0",
     "bitcoin-price-index": "https://github.com/mrkjlchvz/bitcoin-price-index/tarball/master",
     "weather-app": "https://github.com/prasantasaha/weather-app-react/tarball/master",
-    "zone.js": "^0.8.20"
+    "zone.js": "^0.8.20",
+    "snyk": "^1.250.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -59,5 +62,6 @@
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^4.1.1"
-  }
+  },
+  "snyk": true
 }
