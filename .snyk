@@ -1,0 +1,149 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-11-20T15:23:32.158Z'
+  'npm:extend:20180424':
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-11-20T15:23:32.158Z'
+  'npm:hoek:20180212':
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-20T15:23:32.158Z'
+  'npm:moment:20170905':
+    - bitcoin-price-index > chart.js > moment:
+        patched: '2019-11-20T15:23:32.158Z'
+  'npm:stringstream:20180511':
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-11-20T15:23:32.158Z'
+  'npm:tough-cookie:20170905':
+    - bitcoin-price-index > react-scripts > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
+    - bitcoin-price-index > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
+    - weather-app-react > react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-11-20T15:23:32.158Z'
