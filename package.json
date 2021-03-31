@@ -35,7 +35,7 @@
     "bitcoin-price-index": "https://github.com/mrkjlchvz/bitcoin-price-index/tarball/master",
     "weather-app": "https://github.com/prasantasaha/weather-app-react/tarball/master",
     "zone.js": "^0.8.20",
-    "snyk": "^1.250.0"
+    "snyk": "^1.518.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
